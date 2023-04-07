@@ -19,7 +19,7 @@
     "test": "jest",
     "seed": "medusa seed -f ./data/seed.json",
     "start": "npm run build && medusa start",
-    "build:admin": "medusa-admin build"
+    "build:admin": "medusa-admin build --deployment"
   },
   "dependencies": {
     "@babel/preset-typescript": "^7.21.4",
